@@ -13,14 +13,20 @@ public class Exercicio11 {
 
 		System.out.println("Informa o segundo numero");
 		int num2 = scan.nextInt();
-		
-		for(int i = num1; i < num2; i++) {
-			
+
+		for (int i = num1; i < num2; i++) {
+
 			System.out.println(i);
-			soma = soma + i; 
+			soma = soma + i;
 		}
 
-		System.out.println(" A soma dos numero: "+soma);
+		for (int i = num2; i < num1; i++) {
+
+			System.out.println(i);
+			soma = soma + i;
+		}
+
+		System.out.println(" A soma dos numero: " + soma);
 	}
 
 }
