@@ -8,6 +8,7 @@ public class Exercicio11 {
 		Scanner scan = new Scanner(System.in);
 
 		int soma = 0;
+		
 		System.out.println("Informa o primeiro numero");
 		int num1 = scan.nextInt();
 
