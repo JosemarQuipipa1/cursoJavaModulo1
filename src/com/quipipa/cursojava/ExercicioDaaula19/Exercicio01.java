@@ -17,13 +17,13 @@ public class Exercicio01 {
 		}
 
 		for (int i = 0; i < vetorA.length; i++) {
-		
+
 			System.out.print(vetorA[i] + "");
 		}
 		System.out.println("");
 
 		for (int i = 0; i < vetorB.length; i++) {
-			
+
 			System.out.print(vetorB[i] + "");
 		}
 		System.out.println("");
