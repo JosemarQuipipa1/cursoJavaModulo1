@@ -7,7 +7,7 @@ public class DebugNetbeans {
 	
 		int[] notas = new int[3];
 		
-		for( int i = 0; i < 4 ; i++) {
+		for( int i = 0; i < 3 ; i++) {
 			
 			notas[i]=i;
 			System.out.println(notas[i]+"");
