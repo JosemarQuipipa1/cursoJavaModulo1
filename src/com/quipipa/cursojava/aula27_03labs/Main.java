@@ -8,6 +8,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		
 		Aluno aluno = new Aluno();
+		
 		System.out.println("Entre com o nome do aluno");
 		aluno.nome = scan.next();
 		
@@ -29,8 +30,6 @@ public class Main {
 				for(int j = 0; j<aluno.notasDisciplinas[i].length;j++) {
 				System.out.println("Entre com o nota "+(j+1));
 				aluno.notasDisciplinas[i][j] = scan.nextDouble();
-				
-				
 			}
 			
 		}
